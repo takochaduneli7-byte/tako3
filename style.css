@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
 }
 body
 {
@@ -14,7 +13,7 @@ body
 header
 {
     padding: 20px 0;
-    background: #fff;
+    background:#FFFFFF ;
 }
 .container {
     width: 90%;
@@ -39,6 +38,14 @@ header
     font-size: 30px;
     color: #2E7AF4;
 }
+h1
+{
+    font-weight: lighter;
+}
+span
+{
+    font-weight: bold;
+}
 nav {
     display: flex;
     gap: 20px;
@@ -61,7 +68,7 @@ nav a
     padding: 10px 20px;
     text-decoration: none;
     width: 167;
-    margin-right: 200px;
+    margin-right: 150px;
     margin-left: 30px;
     cursor: pointer;
     border: none;
