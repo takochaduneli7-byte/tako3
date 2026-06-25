@@ -8,6 +8,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Lato", sans-serif;
 }
 header {
   padding: 20px 0;
@@ -64,6 +65,7 @@ nav a {
   border: none;
   border-radius: 3px;
 }
+
 main {
   /* padding: 50px auto; */
   width: auto;
