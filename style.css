@@ -4,3 +4,73 @@
     padding: 0;
     box-sizing: border-box;
 }
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header
+{
+    padding: 20px 0;
+    background:#FFFFFF ;
+}
+.container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo img
+{
+   width: 48px;
+   height: 48px;
+}
+.logo h1
+{
+    font-size: 30px;
+    color: #2E7AF4;
+}
+h1
+{
+    font-weight: lighter;
+}
+span
+{
+    font-weight: bold;
+}
+nav {
+    display: flex;
+    gap: 20px;
+}
+nav a
+{
+    text-decoration: none;
+    color: #2E7AF4;
+    font-weight: 500;
+
+}
+.home
+{
+    font-weight: bold;
+}
+.Registered
+{
+    background-color: #2E7AF4;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    width: 167;
+    margin-right: 150px;
+    margin-left: 30px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+}
