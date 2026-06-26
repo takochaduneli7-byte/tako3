@@ -1,3 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schooler Pro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+      <div class="container">
+        <div class="logo">
+          <img src="./image/logo.png" alt="logo" />
+          <h1><span>SChOOLER </span>PRO</h1>
+        </div>
+        <nav>
+          <a class="home" href="#">HOME</a>
+          <a href="#">About Us</a>
+          <a href="#">Blogs</a>
+          <a href="#">Contact Us</a>
+          <button class="Registered">Registered Now</button>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+        <section class="team-section">
+            <div class="team-header">
+                <span class="subtitle">— OUR TEAM</span>
+                <h2 class="main-title">Meet our <span class="highlight">Team</span></h2>
+            </div>
+            <div class="team-grid">
+                <div class="team-card">
+                    <div class="image-wrapper"><img src="./image/image1.png" alt="Sandeep Vinjamuri"></div>
+                    <div class="member-name">Sandeep Vinjamuri</div>
+                </div>
+                <div class="team-card">
+                    <div class="image-wrapper"><img src="./image/image2.png" alt="Pavan Kotha"></div>
+                    <div class="member-name">Pavan Kotha</div>
+                </div>
+                <div class="team-card">
+                    <div class="image-wrapper"><img src="./image/image3.png" alt="Subhojith"></div>
+                    <div class="member-name">Subhojith</div>
+                </div>
+                <div class="team-card">
+                    <div class="image-wrapper"><img src="./image/image4.png" alt="Soumya"></div>
+                    <div class="member-name">Soumya</div>
+                </div>
+                <div class="team-card">
+                    <div class="image-wrapper"><img src="./image/image5.png" alt="Devanjan"></div>
+                    <div class="member-name">Devanjan</div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
+
 * {
     margin: 0;
     padding: 0;
@@ -133,3 +192,4 @@ nav a {
 .content { position: absolute; top: 30%; left: 10%; max-width: 500px; }
 .content h1 { font-size: 60px; font-weight: 700; line-height: 1.1; margin-bottom: 20px; }
 .Join { display: inline-block; padding: 15px 35px; background: #3b82f6; color: #fff; border-radius: 5px; font-weight: bold; }
+
